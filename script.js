@@ -9,7 +9,7 @@ addBtn.addEventListener('click', () => {
   const li = document.createElement('li');
   li.textContent = text;
   list.appendChild(li);
-  input.value = '';
+  input.value = 'test';
 });
 
 // Toggle complete
