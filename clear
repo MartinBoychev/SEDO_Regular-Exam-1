@@ -1,0 +1,38 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex c1621bd..00e42d1 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -1,21 +1,18 @@[m
+ <!DOCTYPE html>[m
+ <html lang="en">[m
+ <head>[m
+[31m-    <meta charset="UTF-8">[m
+[31m-    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[31m-    <title>Quote of the Day</title>[m
+[31m-    <link rel="stylesheet" href="style.css">[m
+[32m+[m[32m  <meta charset="UTF-8">[m[41m[m
+[32m+[m[32m  <title>Simple Todo App</title>[m[41m[m
+[32m+[m[32m  <link rel="stylesheet" href="style.css">[m[41m[m
+ </head>[m
+ <body>[m
+[31m-    <div class="container">[m
+[31m-        <h1>Quote of the Day</h1>[m
+[31m-        <div class="quote-display">[m
+[31m-            <p id="quote-text">"The greatest glory in living lies not in never falling, but in rising every time we fall."</p>[m
+[31m-            <p id="quote-author">- Nelson Mandela</p>[m
+[31m-        </div>[m
+[31m-        <button id="new-quote-btn">Get New Quote</button>[m
+[31m-    </div>[m
+[31m-[m
+[31m-    <script src="script.js"></script>[m
+[32m+[m[32m  <div class="todo-app">[m[41m[m
+[32m+[m[32m    <h1>Todo List</h1>[m[41m[m
+[32m+[m[32m    <input id="task-input" type="text" placeholder="Enter new task">[m[41m[m
+[32m+[m[32m    <button id="add-btn">Add</button>[m[41m[m
+[32m+[m[32m    <button id="clear-completed-btn">Clear Completed</button>[m[41m[m
+[32m+[m[32m    <ul id="task-list"></ul>[m[41m[m
+[32m+[m[32m  </div>[m[41m[m
+[32m+[m[32m  <script src="script.js"></script>[m[41m[m
+ </body>[m
+ </html>[m
+\ No newline at end of file[m
